@@ -59,4 +59,13 @@
         font: Arial, Helvetica, sans-serif;
         text-align: center;
     }
-    
+
+    @media screen and (max-width: 700px){
+        .table{
+            display: block;
+          
+        }
+        .card{
+            width: 20%;
+        }
+    }
