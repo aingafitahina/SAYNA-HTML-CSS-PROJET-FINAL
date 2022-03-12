@@ -1,0 +1,62 @@
+:root{
+    --primary-color: #d35649;
+    --primary-gray: #98a5a5;
+    --primary-blue: #509bd7;
+    --gray-footer: #1f1f1f;
+    --gray-footer-btn: #444;
+    --primary-purple: #575a89;
+    --light-gray: #eee;
+    
+    }
+
+    header{
+        background-color: var(--primary-color);
+        margin: auto;
+    }
+    /* coleur des icons menu blanc*/
+    .icon{
+        text-decoration: none;
+        color: var(--light-gray);
+    }
+    a {
+        text-decoration: none;
+        color: var(--light-gray);
+    }
+
+    a:hover{
+        color:var(--primary-gray);
+    }
+    
+    span{
+        font-weight: bold;
+    }
+
+    /*mise en forme image aligné*/
+    .input-forme{
+        width: 75%;
+        height: 50%;
+    }
+
+    .col-group2{
+        margin: 5%;
+        padding: 1%;
+    }
+
+    footer { 
+        background-color: var(--gray-footer);
+        color: aliceblue;
+
+    }
+    .border{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        border-style: var(--light-gray);
+        
+    }
+    h5{
+        color:var(--light-gray);
+        font: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+    
